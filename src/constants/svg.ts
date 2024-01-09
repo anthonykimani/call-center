@@ -10,6 +10,7 @@ import Expert from "../../public/svg/expert.svg"
 import AboutImg from "../../public/svg/about-img.svg"
 import Amazon from "../../public/svg/amazon.svg"
 import SubscribeImg from "../../public/svg/subscribe-img.svg"
+import Reviewer from "../../public/svg/reviewer.svg"
 
 export {
     ElroiLogo,
@@ -22,5 +23,6 @@ export {
     Expert,
     AboutImg,
     Amazon,
-    SubscribeImg
+    SubscribeImg,
+    Reviewer
 }
