@@ -3,6 +3,9 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import Services from './components/Services'
 import About from './components/About'
+import Partners from './components/Partners'
+import Footer from './components/Footer'
+import Subscribe from './components/Subscribe'
 
 const Home = () => {
   return (
@@ -11,6 +14,9 @@ const Home = () => {
         <HeroSection />
         <Services />
         <About />
+        <Partners />
+        <Subscribe />
+        <Footer />
     </section>
   )
 }
