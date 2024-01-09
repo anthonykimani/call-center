@@ -1,3 +1,5 @@
+'use client'
+
 import { AboutImg, Expert, Shield } from "@/constants/svg";
 import Image from "next/image";
 import React from "react";

@@ -1,3 +1,5 @@
+'use client'
+
 import { Reviewer } from "@/constants/svg";
 import Image from "next/image";
 import React from "react";

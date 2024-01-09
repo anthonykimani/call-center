@@ -1,3 +1,5 @@
+'use client'
+
 import { Call, Contact, Data } from "@/constants/svg";
 import { servicesSource } from "@/helpers/servicesSource";
 import Image from "next/image";

@@ -1,3 +1,5 @@
+'use client'
+
 import { ElroiLogo, ElroiLogoAlt } from "@/constants/svg";
 import {
   FacebookLogo,
