@@ -5,5 +5,14 @@
 @tailwind utilities;
 
 *{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
