@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="p-4 xsm:p-20 bg-[#060640] text-white ">
       <div className="max-w-[768px] xl:max-w-[1280px] grid grid-cols-1 xsm:grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
-        <div className="flex flex-col space-y-4">
+        <div data-aos="fade-up" data-aos-duration="500" className="flex flex-col space-y-4">
           <Image
             src={ElroiLogoAlt}
             alt="nexus-logo"
@@ -24,7 +24,7 @@ const Footer = () => {
             Technologies at ELROI Tech
           </footer>
         </div>
-        <div className="flex flex-col space-y-4">
+        <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col space-y-4">
           <h2 className="font-bold text-2xl">Resources</h2>
           <div className="flex flex-col space-y-2 text-sm text-[#ADB9C7] ">
             <a rel="noopener noreferrer" href="#">
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-4">
+        <div data-aos="fade-up" data-aos-duration="1500" className="flex flex-col space-y-4">
           <h2 className="font-bold text-2xl">Company</h2>
           <div className="flex flex-col space-y-2 text-sm text-[#ADB9C7] ">
             <a rel="noopener noreferrer" href="#">
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-4">
+        <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col space-y-4">
           <h2 className="font-bold text-2xl">Contact</h2>
           <div className="flex flex-col space-y-2 text-sm text-[#ADB9C7] ">
             <a rel="noopener noreferrer" href="#">
@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row  items-start justify-around px-6 pt-12 text-sm">
+      <div data-aos="fade-up" data-aos-duration="2500" className="flex flex-col md:flex-row  items-start justify-around px-6 pt-12 text-sm">
         <span className="mb-1">© Copyright 2024. All Rights Reserved.</span>
         <span className="mb-1">Community guidelines</span>
         <span className="mb-1">Terms</span>

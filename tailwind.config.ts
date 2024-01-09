@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        "hero-bg": "url('/svg/hero-bg.svg')",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

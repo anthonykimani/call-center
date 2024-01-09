@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Reviewer } from "@/constants/svg";
 import Image from "next/image";
@@ -6,8 +6,8 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <div className="text-white p-2 md:p-10 bg-[#060640]  ">
-      <div className=" ">
+    <div className="text-white p-5 md:p-10 bg-[#060640]  ">
+      <div data-aos="fade-up" data-aos-duration="500" className=" ">
         <h2 className="text-2xl md:text-4xl font-semibold my-3">
           Client Success Stories
         </h2>
@@ -17,7 +17,7 @@ const Testimonial = () => {
         </h4>
       </div>
       <div className="flex flex-col lg:flex-row justify-between">
-        <div className="flex flex-col justify-around w-full lg:w-[300px] h-[300px] p-3 lg:m-1 my-1 bg-white text-black rounded">
+        <div data-aos="fade-up" data-aos-duration="500" className="flex flex-col justify-around w-full lg:w-[300px] h-[300px] p-3 lg:m-1 my-1 bg-white hover:bg-[#236BF4] text-black hover:text-white cursor-pointer rounded">
           <div className="flex">
             <Image src={Reviewer} alt="reviewer" />
             <span>
@@ -32,7 +32,7 @@ const Testimonial = () => {
             freelance crypto trader
           </h4>
         </div>
-        <div className="flex flex-col justify-around w-full lg:w-[300px] h-[300px] p-3 lg:m-1 my-1 bg-white text-black rounded">
+        <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col justify-around w-full lg:w-[300px] h-[300px] p-3 lg:m-1 my-1 bg-white hover:bg-[#236BF4] text-black hover:text-white cursor-pointer rounded">
           <div className="flex">
             <Image src={Reviewer} alt="reviewer" />
             <span>
@@ -47,7 +47,7 @@ const Testimonial = () => {
             freelance crypto trader
           </h4>
         </div>
-        <div className="flex flex-col justify-around w-full lg:w-[300px] h-[300px] p-3 lg:m-1 my-1 bg-white text-black rounded">
+        <div data-aos="fade-up" data-aos-duration="1500" className="flex flex-col justify-around w-full lg:w-[300px] h-[300px] p-3 lg:m-1 my-1 bg-white hover:bg-[#236BF4] text-black hover:text-white cursor-pointer rounded">
           <div className="flex">
             <Image src={Reviewer} alt="reviewer" />
             <span>

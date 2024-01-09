@@ -6,7 +6,7 @@ import Article from './Article'
 
 const Articles = () => {
   return (
-    <section className='md:p-28'>
+    <section data-aos="fade-up" data-aos-duration="500" className='p-5 md:p-28'>
         <h3 className='text-2xl font-bold'>Notable Articles</h3>
         <main className='flex overflow-x-scroll hide-scroll-bar'>
           {

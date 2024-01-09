@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="min-w-[200px] w-auto flex items-center">
           <Image src={ElroiLogo} alt="atlas-logo" className="w-auto" />
         </div>
-        <div className="block lg:hidden">
+        <div className="block md:hidden">
           <List
             size={32}
             color="#b8b8b8"
@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="hidden md:block text-black">
         <NavigationMenuDemo />
         </div>
-        <button className=" hidden lg:block py-3 px-6 border bg-[#060640] rounded-lg text-white">
+        <button className=" hidden lg:block py-3 px-6 border bg-[#060640] hover:bg-[#236BF4] rounded-lg text-white font-semibold">
           Contact
         </button>
       </div>
