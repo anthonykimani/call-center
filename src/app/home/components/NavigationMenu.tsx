@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
 import { ElroiLogo } from "@/constants/svg";
-import { servicesSource } from "@/helpers/servicesSource";
+import { servicesSource } from "@/helpers/servicesSourceOne";
 
 export function NavigationMenuDemo() {
   return (
@@ -61,13 +61,13 @@ export function NavigationMenuDemo() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/resources/careers" title="Careers">
+              <ListItem href="/careers" title="Careers">
                 Check out our Careers Page for Exicting Opportunities
               </ListItem>
-              <ListItem href="/resources/events" title="Events">
+              <ListItem href="/events" title="Events">
                 Find an Event near you
               </ListItem>
-              <ListItem href="/resources/how-tos" title="How To's">
+              <ListItem href="/how-tos" title="How To's">
                 Guides on setting up your business
               </ListItem>
             </ul>
@@ -94,7 +94,7 @@ export function NavigationMenuDemo() {
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Documentation
+              Partnerships
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

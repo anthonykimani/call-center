@@ -12,6 +12,7 @@ import Articles from "./components/Articles";
 import Testimonial from "./components/Testimonial";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Faqs from "./components/Faqs";
 
 const Home = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="bg-[#EDF6F3] font-poppins">
+    <section className="bg-[#EDF6F3] font-poppins overflow-hidden xl:flex xl:flex-col xl:items-center">
       <Navbar />
       <HeroSection />
       <Services />
@@ -27,6 +28,7 @@ const Home = () => {
       <Partners />
       <Articles />
       <Testimonial />
+      <Faqs />
       <Subscribe />
       <Footer />
     </section>
